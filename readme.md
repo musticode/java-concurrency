@@ -203,8 +203,6 @@ The currently executing thread is Thread-0, priority : 1
 
 ## Bir thread'i doğru şekilde nasıl durdururuz?
 
-- https://blog.stackademic.com/mastering-java-multithreading-7-how-to-properly-stop-a-thread-3655d5fe7bfb
-
 #### Bir thread'i durdurmak ne zaman gereklidir?
 
 - Bir thread çalıştığında doğal olarak en sona kadar çalışmaya devam eder. Ama bazı durumlarda da thread'lerin durdurulması gerekiyor, bu durumlar ise
@@ -395,7 +393,6 @@ Related methods of java.nio.channels.Selector
 
 ## Shutdown Hook'u kapsamlı şekilde anlamak
 
-- https://levelup.gitconnected.com/mastering-java-multithreading-8-comprehensive-understanding-of-shutdown-hook-41ae856667b6
 - Program exit'e gelmeden önce veritabanı, bağlantılar, kaynakları vs kapatmak gibi işler olabilir. Bu durumda uygulamaya önceden bir veya daha fazla hook thread'i enjekte edilebilir. Böylece program exit'e gelmeden önce Hook thread'i başlatılır ve yürütülür.
 - Örnek senaryolar:
   - Uygulamadaki resource'ları serbest bırakmak
