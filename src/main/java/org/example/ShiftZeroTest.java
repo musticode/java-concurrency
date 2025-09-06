@@ -11,6 +11,9 @@ public class ShiftZeroTest {
 
     public static void main(String[] args) {
 
+        if(8 < 8 ){
+            System.out.println("True");
+        }
 
             int[] nums2 = {2, 1, 1, 1, 2, 2, 3, 3};
 
